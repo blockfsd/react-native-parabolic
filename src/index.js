@@ -8,7 +8,7 @@
  import React, { Component } from 'react'
  import PropTypes from 'prop-types'
  import {
-   View,
+   ViewPropTypes,
    Animated
  } from 'react-native'
 
@@ -19,7 +19,7 @@
      animateEnd: PropTypes.func,
      curvature: PropTypes.number,
      duration: PropTypes.number,
-     style: View.propTypes.style
+     style: ViewPropTypes.style
    }
 
    static defaultProps = {
